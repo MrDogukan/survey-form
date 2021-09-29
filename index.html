@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey-Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+
+            <h1>Clarusvay Survey Form</h1>
+            <p>Thank you for taking the time to help us improve the platform</p>
+
+        </header>
+
+        <section>
+
+            <form action="result.html" method="GET">
+
+                <div class="input-box">
+
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" name="name" id="name" placeholder="Enter your name" required>
+
+                </div>
+
+                <div class="input-box">
+
+                    <label for="surname">Surname</label>
+                    <br>
+                    <input type="text" name="surname" id="surname" placeholder="Enter your surname" required>
+
+                </div>
+
+                <div class="input-box">
+
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email" name="email" id="email" placeholder="user@clarusway.com" required>
+
+                </div>
+
+                <div class="input-box">
+
+                    <label for="role" class="yazı">Which option best describes your current role?</label>
+                    <br>
+                    <select name="role" id="role" required>
+
+                        <option value="" disabled selected hidden >Select current role</option>
+                        <option value="student">Student</option>
+                        <option value="Teacher">Teacher</option>
+                        <option value="Full Time Job">Full Time Job</option>
+                        <option value="Part Time Job">Part Time Job</option>
+                        <option value="Full Time Learner">Full Time Learner</option>
+                        <option value="Prefer not to say">Prefer not to say</option>
+
+                    </select>
+
+
+                </div>
+
+                <div class="input-box">
+
+                    <label for="recommend" class="yazı" >Would you recommend Clarusway to a friend ?</label>
+                    <br>
+                    <input type="radio" name="recommend" id="yes">
+                    <label for="yes">Definitely, Yes</label>
+                    <br>
+                    <input type="radio" name="recommend" id="maybe">
+                    <label for="maybe">Maybe</label>
+                    <br>
+                    <input type="radio" name="recommend" id="not-sure">
+                    <label for="not-sure">Not sure</label>
+                    <br>
+                    <input type="radio" name="recommend" id="no">
+                    <label for="no">Definately No</label>
+
+                </div>
+
+                <div class="input-box">
+
+                    <label for="feature" class="yazı">What is your favourite feature of Clarusway?</label>
+                    <br>
+                    <input type="checkbox" name="feature" id="Front-end Projets">
+                    <label for="Front-end Projets">Front-end Projets</label>
+                    <br>
+                    <input type="checkbox" name="feature" id="Back-end Projects">
+                    <label for="Back-end Projects">Back-end Projects</label>
+                    <br>
+                    <input type="checkbox" name="feature" id="Data Science">
+                    <label for="Data Science">Data Science</label>
+                    <br>
+                    <input type="checkbox" name="feature" id="Additional Courses">
+                    <label for="Additional Courses">Additional Courses</label>
+
+
+                </div>
+
+                <div class="input-box">
+
+                    <label for="suggestions" class="yazı">Any comment or suggestions?</label>
+                    <br>
+                    <textarea name="suggestions" id="suggestions" cols="20" rows="2" placeholder="Enter your comment here... Thanks for your comments" ></textarea>
+                    <input type="submit" value="Submit">
+
+                </div>
+
+            </form>
+
+        </section>
+        
+
+    </div>
+    
+</body>
+</html>

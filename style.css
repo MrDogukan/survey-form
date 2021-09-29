@@ -1,0 +1,27 @@
+h1{
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+#container{
+    
+}
+
+.yazı{
+    font-size: 1.5rem;
+}
+
+section{
+    
+}
+
+.input-box{
+    padding: 5px;
+    margin: 10px;
+    line-height: 25px;
+}
+
